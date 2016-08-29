@@ -5,7 +5,7 @@ html, body {
 }
 
 .cell {
-    background-color: red;
+    background-color: #ECE9E9;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -15,5 +15,18 @@ html, body {
     margin-bottom: 1px;
 }
 
+#cval {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.cellX {
+    background-color: #00BCD4;
+}
+
+.cellO {
+    background-color: #d58512;
+}
 
 
