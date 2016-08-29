@@ -1,9 +1,27 @@
 html, body {
+    width: 100%;
     font-family: 'Roboto', 'Helvetica', sans-serif;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
 }
 
+.main {
+    width:800px;
+    left: 50%;
+    display: inline-block;
+    position: relative;
+    //margin-right: 400px;
+    margin-left: -200px;
+    margin-top:20px;
+}
+.game {
+    left: -10%;
+    display: inline-block;
+    position: relative;
+}
 .cell {
     background-color: #ECE9E9;
     display: inline-block;

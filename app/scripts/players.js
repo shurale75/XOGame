@@ -3,11 +3,8 @@
  */
 
 function Players(){
-    console.log('PLAYERS');
-
     this.currentPlayer = 1;
     this.players = ['X', 'O'];
-
     this.setRndPlayer();
 
     return this;
@@ -20,7 +17,6 @@ Players.prototype = {
     },
 
     switchPlayer: function(){
-
         this.currentPlayer = this.currentPlayer === 0 ? 1 : 0;
         return this.players[this.currentPlayer];
     }
